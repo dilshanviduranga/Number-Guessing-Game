@@ -3,7 +3,7 @@ console.log(randomNumber);
 let count =0;
 
 function hoo(){
-    if(count>1){
+    if(count>2){
         document.getElementById("final").innerHTML = "Game Over..🤯";
         document.getElementById("output").innerHTML = "";
         return;

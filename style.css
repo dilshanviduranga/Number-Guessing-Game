@@ -1,38 +1,20 @@
-div{
+body{
+    display: flex;
+    justify-content: center;
+    height: 90vh;
+    align-items: center;
+    background-color: rgb(196, 161, 118);
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
     align-items: center;
 }
-#container{
-    display: flex;
-    flex-direction: row
-}
-h1 {
-    justify-content: flex-end;
-    color: rgb(10, 10, 10);
-}
 
-input {
-    border: 2px;
-    padding: 10px;
-    font-size: larger;
-    color: rgb(209, 93, 97);
-    background-color: rgb(17, 22, 22);
-}
-
-#num{
-    background-color: rgb(227, 227, 190);
-}
-
-
-#output{
-    margin: 115px;
-    background-color: rgb(120, 230, 140);
-    color: rgb(1, 14, 1);
-}
-
-#final{
-    background-color: rgb(238, 17, 17);
-}
-
-body{
-    background-color: rgb(152, 114, 156);
+#btnguess{
+    background-color: cornflowerblue;
+    color: brown;
+    border-radius: 2rem;
 }
